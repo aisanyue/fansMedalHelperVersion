@@ -104,6 +104,10 @@ MOREPUSH: { "notifier": "pushplus", "params": { "markdown": false, "token": "abc
 
 `markdown` 建议都设为 false，因为可能会出现推送格式异常。
 
+
+若存在多人推送需要推送到群组可以更改以下方式,`topic`后面的值填您在pushplus上设置的群组号
+{ "notifier": "pushplus", "params": { "markdown": false, "token": "abcabcacb", "topic": "code" } }
+
 :::
 
 ## 已知问题
